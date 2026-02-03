@@ -6478,7 +6478,7 @@
 				)
 			)
 		)
-		(property "Value" "330uF"
+		(property "Value" "220uF"
 			(at 0 6.3 0)
 			(layer "F.Fab")
 			(hide yes)

@@ -12399,6 +12399,27 @@
 		)
 		(uuid "39aea988-1191-450d-9550-bee626688e56")
 	)
+	(text_box "输出电压：2.5V-36.2V  可调"
+		(exclude_from_sim no)
+		(at 88.9 144.78 0)
+		(size 30.48 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "HarmonyOS Sans SC")
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "a331c0ed-9ac2-4f65-8e68-e3324b7dfbc7")
+	)
 	(junction
 		(at 68.58 64.77)
 		(diameter 0)
@@ -17952,6 +17973,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 90.17 115.57 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e0f57f1-2186-4fe9-ad23-732319251d95")
+		(property "Reference" "RV1"
+			(at 90.17 113.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200k"
+			(at 90.17 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296X_Horizontal"
+			(at 90.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 90.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "aa1dfbee-8bd7-4021-abb9-3e93ea844a8a")
+		)
+		(pin "2"
+			(uuid "0c5e8348-9bd3-4e78-a77d-eba81a43694d")
+		)
+		(pin "1"
+			(uuid "fb6b6316-61c0-4554-854f-0c60cce6fd8c")
+		)
+		(instances
+			(project "SC8703_Buck-Boost"
+				(path "/00808dcd-76cb-4382-86f8-b718334c603a"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 100.33 96.52 90)
 		(unit 1)
@@ -21592,76 +21684,6 @@
 			(project "SC8703_Buck-Boost"
 				(path "/00808dcd-76cb-4382-86f8-b718334c603a"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 90.17 115.57 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "df3296de-b83d-4a02-95c4-9bcc743becb3")
-		(property "Reference" "RV1"
-			(at 90.17 113.284 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "200k"
-			(at 90.17 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
-			(at 90.17 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 90.17 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "10824ffb-20c5-4bb9-b33b-39552cb2531e")
-		)
-		(pin "2"
-			(uuid "45a46801-301d-45d6-8784-e9c8a3925685")
-		)
-		(pin "1"
-			(uuid "7439050f-e676-4424-9646-e14dc05bebc6")
-		)
-		(instances
-			(project "SC8703_Buck-Boost"
-				(path "/00808dcd-76cb-4382-86f8-b718334c603a"
-					(reference "RV1")
 					(unit 1)
 				)
 			)

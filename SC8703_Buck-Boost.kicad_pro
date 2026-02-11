@@ -526,7 +526,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "SC8703_Buck-Boost.step",
       "svg": "",
       "vrml": ""
     },

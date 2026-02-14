@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "00808dcd-76cb-4382-86f8-b718334c603a")
 	(paper "A4")
+	(title_block
+		(title "基于SC8703的Buck-Boost升降压DCDC电源")
+		(company "Zeruns    blog.zeruns.com")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
@@ -15063,8 +15067,8 @@
 		(uuid "fff5c29b-d997-4a8f-893b-29b4c1765287")
 	)
 	(image
-		(at 74.93 101.6)
-		(scale 0.440304)
+		(at 67.31 99.06)
+		(scale 0.814833)
 		(uuid "2ae5b535-8424-4e7f-81c0-9d3ef0dcd89e")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAjAAAACfCAIAAABoRnQqAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
 			"nO3dZ0ATSRsA4DebAoTeO0hVqogCgoigYtezd0WxH/Z6KPaC2MvZG6Ji72Lvng0LCNIU6VKlQwhJ"
@@ -15347,8 +15351,8 @@
 		)
 	)
 	(image
-		(at 74.93 95.25)
-		(scale 0.429533)
+		(at 67.31 86.36)
+		(scale 0.826843)
 		(uuid "5f7a2a17-74d6-4750-987d-d5303ccd11f2")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAjUAAADACAIAAABztwVMAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
 			"nO3dZ0ATSRsH8IdNIZTQe5UuqIgoCIoIKnbsnVexnBWwe56K/bCX0zs9e0Oxt1Oxnr1iAbEgRalS"
@@ -16617,7 +16621,7 @@
 		(dnp no)
 		(uuid "100060e2-5bc0-49ce-888a-36f2c66373ab")
 		(property "Reference" "C19"
-			(at 97.028 109.22 90)
+			(at 97.282 109.474 90)
 			(effects
 				(font
 					(size 1.27 1.27)

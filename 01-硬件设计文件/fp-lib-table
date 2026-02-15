@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "kicad_api_lib")(type "KiCad")(uri "${KIPRJMOD}/kicad_api_libs/kicad_api_lib.pretty")(options "Added by KiCad IPC API")(descr ""))
+)

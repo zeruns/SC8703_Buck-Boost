@@ -1,6 +1,6 @@
 # 【开源】基于SC8703的升降压DCDC可调电源（Buck-Boost），电压电流可调，支持PD快充输入
 
-**开源一个基于SC8703芯片的Buck-Boost升降压DC/DC电源模块，输入电压最高36V，输入输出电流最高10A，开关频率600kHz，输出电压可调，输出电流恒流可调，输入输出接口XT30，带TypeC口，支持PD快充输入，最高诱骗28V。**
+**开源一个基于SC8703芯片的Buck-Boost升降压DC/DC电源模块，输入电压最高36V，输入输出电流最高10A，开关频率600kHz，输出电压可调，输出电流恒流可调，最高转换效率95%，输入输出接口XT30，带TypeC口，支持PD快充输入，最高诱骗28V。**
 
 
 
@@ -38,7 +38,7 @@ Buck-Boost电源控制器芯片是SC8703，快充协议芯片是CH224Q。
 
 小批量的元器件成本大概是30元/套（不含PCB、外壳），主要还是SC8703芯片贵，要9元左右每颗。
 
-▶ **本项目视频演示：** 
+▶ **本项目视频演示：** [https://www.bilibili.com/video/BV1mMfPBzEXH/](https://www.bilibili.com/video/BV1mMfPBzEXH/)
 
 ▶ **电子/单片机技术交流QQ群： [2169025065](https://qm.qq.com/q/haWR2WfhIc)**
 
@@ -189,6 +189,7 @@ TypeC输入测试，使用65W的PD充电头，诱骗出20V。
 - Github开源地址：[https://github.com/zeruns/sc8703_-buck-boost](https://github.com/zeruns/sc8703_-buck-boost)
 - 立创开源平台地址：[https://oshwhub.com/zeruns/sc8703_buck-boost](https://oshwhub.com/zeruns/sc8703_buck-boost)
 - 华秋开源平台地址：[https://p.eda.cn/d-1341729185952956416](https://p.eda.cn/d-1341729185952956416)
+- 123云盘下载地址：[https://www.123865.com/s/2Y9Djv-I9ddH](https://www.123865.com/s/2Y9Djv-I9ddH)
 
 
 

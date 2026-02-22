@@ -44,6 +44,8 @@ Buck-Boost电源控制器芯片是SC8703，快充协议芯片是CH224Q。
 
 ▶ **eeClub-电子工程师社区:** [https://bbs.eeclub.top/](https://bbs.eeclub.top/)
 
+**求点个Star**
+
 
 
 ---
